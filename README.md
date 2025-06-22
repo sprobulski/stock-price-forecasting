@@ -106,20 +106,6 @@ The system generates:
 
 ## Usage
 
-### Quick Start
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run complete pipeline
-python src/main_pipeline.py --ticker AAPL --stages all
-
-# Or run individual stages
-python src/feature_engineering.py --ticker AAPL
-python src/model_training.py --ticker AAPL
-```
-
 ### Notebook Workflow
 
 Execute notebooks sequentially for detailed analysis and experimentation:
